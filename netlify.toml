@@ -1,4 +1,4 @@
-# Netlify settings for the Lashed By Tash site (source repository).
+# Netlify settings for the Lashed By Tash site (deploy repository).
 # Built from the source project with tools/publish_repo.sh; edit the source, not this repo.
 [build]
   command = ""
