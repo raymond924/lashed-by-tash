@@ -375,3 +375,5 @@ body.dark .split,body.dark .statement,body.dark .rule{border-color:rgba(244,235,
 .f-bot a{display:inline-block;padding:5px 0;min-height:24px}
 .doc p,.doc li{max-width:70ch}
 .p-nav a{min-height:26px;display:inline-flex;align-items:center}
+.p-more{margin-top:14px;font-size:14px;line-height:1.9}
+.p-more a{text-decoration:underline;text-underline-offset:3px}
