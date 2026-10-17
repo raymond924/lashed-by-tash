@@ -305,7 +305,7 @@ body.dark .split,body.dark .statement,body.dark .rule{border-color:rgba(244,235,
 }
 
 /* ---------- responsive ---------- */
-@media (max-width:1100px){
+@media (max-width:1180px){
   .nav-links{display:none}
   .nav-cell.tel{display:none}
   .nav-logo{flex:1}
@@ -432,3 +432,8 @@ button.pill{background:transparent;cursor:pointer}
   .ag-open body{overflow:hidden}
 }
 @media (prefers-reduced-motion:reduce){.ag-panel,.ag-typing span{animation:none}.ag-log{scroll-behavior:auto}.ag-launch{transition:none}}
+.nav-links > li > a,.nav-links > li > button,.nav-cell{white-space:nowrap}
+@media (max-width:1300px){
+  .nav-links > li > a,.nav-links > li > button{padding:0 7px}
+  .nav-cell{padding:0 16px}
+}
