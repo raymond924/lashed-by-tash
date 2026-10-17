@@ -53,7 +53,7 @@
 <div class="idx-head"><h1 data-r>Contact</h1>
   <p data-r>Polo Village Offices, Block D107<br>Val de Vie Boulevard<br>Paarl, 7670<br><br><a href="tel:+27715601577">071 560 1577</a> · <a href="https://wa.me/27715601577" target="_blank" rel="noopener">WhatsApp</a><br><a href="mailto:info@lashedbytash.co.za">info@lashedbytash.co.za</a><br>Monday to Friday, 9am to 5pm</p>
 </div>
-<div style="padding:0 32px 64px" data-r><a class="pill" href="https://booksy.com/en-za/26381_lashed-by-tash-val-de-vie_brows-lashes_58154_paarl" target="_blank" rel="noopener">Book appointment</a> <a class="pill" href="https://www.google.com/maps/search/?api=1&query=Polo Village Offices Val de Vie Paarl" target="_blank" rel="noopener" style="margin-left:8px">Directions</a></div>
+<div style="padding:0 32px 64px" data-r><a class="pill" href="https://booksy.com/en-za/26381_lashed-by-tash-val-de-vie_brows-lashes_58154_paarl" target="_blank" rel="noopener">Book appointment</a> <a class="pill" href="https://www.google.com/maps/search/?api=1&query=Polo Village Offices Val de Vie Paarl" target="_blank" rel="noopener" style="margin-left:8px">Directions</a> <button type="button" class="pill" data-agent-open="request" style="margin-left:8px">Request a time</button></div>
 </main>
 
 <section class="close-sec" aria-labelledby="contact-title">
@@ -74,6 +74,9 @@
         </form>
       </div>
     </div>
+    <form name="booking-request" data-netlify="true" hidden aria-hidden="true">
+      <input name="treatment"><input name="option"><input name="name"><input name="phone"><input name="day"><input name="time"><textarea name="notes"></textarea><input name="page">
+    </form>
     <footer class="footer">
       <div class="f-mark"><img src="assets/brand/logo-cream.webp" width="1600" height="791" alt="Lashed By Tash" loading="lazy"></div>
       <div class="f-cols">
@@ -88,5 +91,7 @@
 </section>
 
 <script src="site.js" defer></script>
+<script src="agent-data.js" defer></script>
+<script src="agent.js" defer></script>
 </body>
 </html>

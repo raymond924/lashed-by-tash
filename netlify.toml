@@ -4,6 +4,10 @@
   command = ""
   publish = "public"
 
+# The booking assistant's optional Claude endpoint (needs ANTHROPIC_API_KEY in Netlify)
+[functions]
+  directory = "netlify/functions"
+
 [[headers]]
   for = "/assets/*"
   [headers.values]
